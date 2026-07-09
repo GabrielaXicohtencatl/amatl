@@ -20,8 +20,8 @@ export default function ContactoPage() {
           <div className="text-sm text-verde-oscuro/80">
             <p>
               También puedes escribirnos directamente a{' '}
-              <a href="mailto:contacto@amatl.org" className="text-verde underline">
-                contacto@amatl.org
+              <a href="mailto:ecosistemaamatl@gmail.com" className="text-verde underline">
+                ecosistemaamatl@gmail.com
               </a>
             </p>
             <p className="mt-4">O encontrarnos en redes sociales:</p>

@@ -69,12 +69,12 @@ contenido dinámico, ya tienes la base y el cliente de Sanity listo (`lib/sanity
 
 ---
 
-## 4. Correo: contacto@amatl.org con Google Workspace
+## 4. Correo: ecosistemaamatl@gmail.com con Google Workspace
 
 1. Ve a https://workspace.google.com y elige el plan Business Starter (el más económico).
 2. Sigue el asistente: te pedirá el dominio `amatl.org` y te dará registros MX que debes
    agregar en tu proveedor de dominio (los mismos donde configuraste Vercel).
-3. Crea el usuario `contacto@amatl.org`.
+3. Crea el usuario `ecosistemaamatl@gmail.com`.
 4. Con eso ya puedes enviar y recibir correo real desde ese buzón.
 
 ---
@@ -89,7 +89,7 @@ la llave de Brevo para funcionar.
 2. Ve a **Contacts → Lists** y crea una lista llamada "Lista de espera AMATL". Anota el
    número de ID de la lista (aparece en la URL o en los detalles de la lista).
 3. Ve a **Settings → SMTP & API → API Keys** y genera una nueva API key.
-4. En **Senders & IP → Senders**, agrega y verifica `contacto@amatl.org` como remitente
+4. En **Senders & IP → Senders**, agrega y verifica `ecosistemaamatl@gmail.com` como remitente
    (necesitarás el correo ya creado en el paso 4).
 5. Copia esos valores a tu `.env.local` (y también a Vercel, paso 3.6):
    ```

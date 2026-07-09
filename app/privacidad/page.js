@@ -25,8 +25,8 @@ export default function PrivacidadPage() {
           <p>
             No vendemos ni compartimos tu información con terceros con fines comerciales. Puedes
             solicitar la eliminación de tus datos en cualquier momento escribiendo a{' '}
-            <a href="mailto:contacto@amatl.org" className="text-verde underline">
-              contacto@amatl.org
+            <a href="mailto:ecosistemaamatl@gmail.com" className="text-verde underline">
+              ecosistemaamatl@gmail.com
             </a>
             .
           </p>

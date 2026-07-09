@@ -45,8 +45,8 @@ export default function Footer() {
           <Logo className="[&_span]:text-marfil" />
           <p className="mt-3 text-sm text-marfil/70 max-w-xs">Aprender para trascender</p>
           <p className="mt-4 text-sm text-marfil/70">
-            <a href="mailto:contacto@amatl.org" className="hover:text-dorado-claro">
-              contacto@amatl.org
+            <a href="mailto:ecosistemaamatl@gmail.com" className="hover:text-dorado-claro">
+              ecosistemaamatl@gmail.com
             </a>
           </p>
           <div className="mt-4 flex flex-wrap gap-4">
