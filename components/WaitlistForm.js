@@ -37,15 +37,15 @@ export default function WaitlistForm({
   }
 
   if (status === 'success') {
-    return (
-      <div className={`rounded-2xl border border-dorado/40 bg-marfil p-6 ${className}`}>
-        <p className="font-display text-lg text-verde">¡Listo, ya eres parte de la lista!</p>
-        <p className="mt-1 text-sm text-verde-oscuro/80">
-          Te avisaremos en cuanto abramos cursos, mentorías y espacios de comunidad.
-        </p>
-      </div>
-    )
-  }
+     return (
+       <div className={`rounded-2xl border border-dorado/40 bg-marfil p-6 ${className}`}>
+         <p className="font-display text-lg !text-verde">¡Listo, ya eres parte de la lista!</p>
+         <p className="mt-1 text-sm !text-verde-oscuro/80">
+           Te avisaremos en cuanto abramos cursos, mentorías y espacios de comunidad.
+         </p>
+       </div>
+     )
+   }
 
   return (
     <div className={className}>
