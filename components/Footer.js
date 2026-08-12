@@ -2,11 +2,12 @@ import Link from 'next/link'
 import Logo from './Logo'
 
 const SOCIAL = [
-  { label: 'Instagram', href: 'https://instagram.com/amatl' },
-  { label: 'Facebook', href: 'https://facebook.com/amatl' },
-  { label: 'X', href: 'https://x.com/amatl' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/company/amatl' },
-  { label: 'YouTube', href: 'https://youtube.com/@amatl' },
+  { label: 'Instagram', href: 'https://instagram.com/somosamatl' },
+  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61593008497615' },
+  { label: 'X', href: 'https://x.com/somosamatl' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gabrielaxicohtencatl' },
+  { label: 'YouTube', href: 'https://youtube.com/@somosamatl' },
+  { label: 'TikTok', href: 'https://www.tiktok.com/@somosamatl' },
 ]
 
 const COLUMNS = [

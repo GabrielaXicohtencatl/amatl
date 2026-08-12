@@ -26,11 +26,13 @@ export default function ContactoPage() {
             </p>
             <p className="mt-4">O encontrarnos en redes sociales:</p>
             <ul className="mt-2 space-y-1">
-              <li><a className="hover:text-verde" href="https://instagram.com/amatl" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-              <li><a className="hover:text-verde" href="https://facebook.com/amatl" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-              <li><a className="hover:text-verde" href="https://x.com/amatl" target="_blank" rel="noopener noreferrer">X</a></li>
-              <li><a className="hover:text-verde" href="https://linkedin.com/company/amatl" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a className="hover:text-verde" href="https://youtube.com/@amatl" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a className="hover:text-verde" href="https://instagram.com/somosamatl" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a className="hover:text-verde" href="https://www.facebook.com/profile.php?id=61593008497615" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a className="hover:text-verde" href="https://x.com/somosamatl" target="_blank" rel="noopener noreferrer">X</a></li>
+              <li><a className="hover:text-verde" href="https://www.linkedin.com/in/gabrielaxicohtencatl" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a className="hover:text-verde" href="https://youtube.com/@somoamatl" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a className="hover:text-verde" href="https://www.tiktok.com/@somosamatl" target="_blank" rel="noopener noreferrer">TikTo</a></li>
+
             </ul>
           </div>
         </div>
