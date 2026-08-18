@@ -43,7 +43,7 @@ export default function Footer() {
     <footer className="bg-verde text-marfil">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <Logo className="[&_span]:text-marfil" />
+          <Logo className="[&_span]:text-marfil [&_img]:bg-marfil [&_img]:rounded-full [&_img]:p-1" />
           <p className="mt-3 text-sm text-marfil/70 max-w-xs">Aprender para trascender</p>
           <p className="mt-4 text-sm text-marfil/70">
             <a href="mailto:ecosistemaamatl@gmail.com" className="hover:text-dorado-claro">
