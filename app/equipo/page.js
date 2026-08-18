@@ -16,14 +16,29 @@ export default function EquipoPage() {
 
       <section className="bg-fondo border-b border-verde/10">
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16">
-          <h2 className="font-display text-xl text-verde mb-6">Fundador(a)</h2>
-          <div className="max-w-sm rounded-2xl bg-marfil border border-verde/10 p-6">
-            <div className="w-20 h-20 rounded-full bg-verde/10 mb-4" aria-hidden="true" />
-            {/* Reemplaza este bloque con tu fotografía, nombre y biografía breve */}
-            <p className="font-display text-lg text-verde">Tu nombre aquí</p>
-            <p className="mt-2 text-sm text-verde-oscuro/75">
-              Breve biografía: quién eres, por qué creaste AMATL y qué te motiva.
-            </p>
+          <h2 className="font-display text-xl text-verde mb-6">Fundadora</h2>
+          <div className="max-w-xl rounded-2xl bg-marfil border border-verde/10 p-7">
+            <p className="font-display text-lg text-verde">Gabriela Xicohtencatl</p>
+            <p className="text-xs uppercase tracking-wide text-dorado mt-1 mb-4">Fundadora de AMATL</p>
+            <div className="space-y-3 text-sm text-verde-oscuro/80 leading-relaxed">
+              <p>
+                Estoy por cursar mi último año de preparatoria como estudiante de programación, en ese
+                contexto de permanente formación, AMATL nació de algo muy simple: aprender es, para mí, 
+                una de las cosas más hermosas del mundo, y creo profundamente que es uno de los pilares 
+                más importantes de cualquier sociedad. En lugar de decirle a las personas cómo aprender, 
+                en AMATL buscamos ayudarlas a descubrir su propia forma de hacerlo, para que logren
+                integrarla a áreas como la escuela cualquier ámbito más de su vida.
+              </p>
+              <p>
+                Me apasiona el mundo STEM, quiero estudiar Ingeniería en Ciencia de Datos y, más
+                adelante, Física, pero también amo la lectoescritura, la música y muchas, muchísimas
+                cosas más. Esa variedad de intereses viene del mismo lugar: el amor por aprender.
+              </p>
+              <p>
+                Para mí, aprender no es solo para algunos, es para todos, aunque el camino sea distinto
+                en cada persona. AMATL es mi forma de acompañar ese camino.
+              </p>
+            </div>
           </div>
         </div>
       </section>
