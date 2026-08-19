@@ -45,10 +45,7 @@ export const metadata = {
     description:
       'AMATL es una comunidad dedicada al aprendizaje, el crecimiento humano y la construcción de conocimiento compartido.',
     images: ['/og-image.jpg'],
-  },
-  icons: {
-    icon: '/favicon.ico',
-  },
+  }
 }
 
 export default function RootLayout({ children }) {
