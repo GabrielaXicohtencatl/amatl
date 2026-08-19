@@ -31,7 +31,7 @@ export default function ContactoPage() {
               <li><a className="hover:text-verde" href="https://x.com/somosamatl" target="_blank" rel="noopener noreferrer">X</a></li>
               <li><a className="hover:text-verde" href="https://www.linkedin.com/in/gabrielaxicohtencatl" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               <li><a className="hover:text-verde" href="https://youtube.com/@somoamatl" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-              <li><a className="hover:text-verde" href="https://www.tiktok.com/@somosamatl" target="_blank" rel="noopener noreferrer">TikTo</a></li>
+              <li><a className="hover:text-verde" href="https://www.tiktok.com/@somosamatl" target="_blank" rel="noopener noreferrer">TikTok</a></li>
 
             </ul>
           </div>

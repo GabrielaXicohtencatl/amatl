@@ -19,6 +19,8 @@ const MORE_LINKS = [
   { href: '/transparencia', label: 'Transparencia' },
 ]
 
+const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSc2iTZ_W7mfUv52JLyPtuecAII1Nd71wvAu9xgbzwkpodWzPQ/viewform'
+
 export default function Header() {
   const [open, setOpen] = useState(false)
   const [moreOpen, setMoreOpen] = useState(false)
@@ -86,7 +88,9 @@ export default function Header() {
           </nav>
 
           <Link
-            href="/contacto"
+            href={GOOGLE_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-full bg-verde px-5 py-2 text-sm text-marfil hover:bg-verde-claro transition-colors whitespace-nowrap"
           >
             Únete a la comunidad
@@ -130,7 +134,9 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="/contacto"
+            href={GOOGLE_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex justify-center rounded-full bg-verde px-5 py-2.5 text-marfil"
           >

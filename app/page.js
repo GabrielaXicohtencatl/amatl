@@ -52,7 +52,9 @@ export default function HomePage() {
                 Conoce AMATL
               </Link>
               <Link
-                href="#lista-de-espera"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc2iTZ_W7mfUv52JLyPtuecAII1Nd71wvAu9xgbzwkpodWzPQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full border border-verde px-6 py-3 text-sm text-verde hover:bg-verde hover:text-marfil transition-colors"
               >
                 Únete a la comunidad
@@ -149,7 +151,7 @@ export default function HomePage() {
           <div className="rounded-3xl bg-verde text-marfil px-6 sm:px-12 py-14 grid lg:grid-cols-2 gap-10 items-center">
             <div>
               <p className="font-sans text-xs uppercase tracking-[0.2em] text-dorado-claro mb-3">
-                Únete a la lista de espera
+                Recibe actualizaciones
               </p>
               <h2 className="font-display text-2xl sm:text-3xl">
                 Sé de las primeras personas en entrar a AMATL
@@ -175,7 +177,9 @@ export default function HomePage() {
             El conocimiento florece cuando se comparte.
           </h2>
           <Link
-            href="/contacto"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc2iTZ_W7mfUv52JLyPtuecAII1Nd71wvAu9xgbzwkpodWzPQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex rounded-full bg-dorado px-7 py-3 text-sm font-medium text-verde-oscuro hover:bg-dorado-claro transition-colors"
           >
             Únete a AMATL
