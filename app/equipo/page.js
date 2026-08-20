@@ -1,4 +1,5 @@
 import PageHero from '@/components/PageHero'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'Equipo',
@@ -18,7 +19,7 @@ export default function EquipoPage() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16">
           <h2 className="font-display text-xl text-verde mb-6">Fundadora</h2>
           <div className="max-w-xl rounded-2xl bg-marfil border border-verde/10 p-7">
-            <p className="font-display text-lg text-verde">Gabriela Xicohtencatl</p>
+            <p className="font-display text-lg text-verde">Gabriela S. Martínez Xicohténcatl</p>
             <p className="text-xs uppercase tracking-wide text-dorado mt-1 mb-4">Fundadora de AMATL</p>
             <div className="space-y-3 text-sm text-verde-oscuro/80 leading-relaxed">
               <p>
@@ -36,7 +37,7 @@ export default function EquipoPage() {
               </p>
               <p>
                 Para mí, aprender no es solo para algunos, es para todos, aunque el camino sea distinto
-                en cada persona. AMATL es mi forma de acompañar ese camino.
+                para cada persona. AMATL es mi forma de acompañar ese camino.
               </p>
             </div>
           </div>
@@ -54,6 +55,29 @@ export default function EquipoPage() {
           </p>
         </div>
       </section>
+
+      <section className="bg-fondo">
+        <div className="mx-auto max-w-3xl px-5 sm:px-8 py-16">
+          <div className="rounded-3xl border-2 border-dorado/40 bg-marfil px-6 sm:px-12 py-12 text-center">
+            <h2 className="font-display text-2xl sm:text-3xl text-verde">
+              ¿Quieres unirte a nuestro equipo?
+            </h2>
+            <p className="mt-3 text-verde-oscuro/75 max-w-md mx-auto">
+              Buscamos personas apasionadas por el aprendizaje para dar talleres, mentorías y
+              ayudar a construir AMATL.
+            </p>
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc2iTZ_W7mfUv52JLyPtuecAII1Nd71wvAu9xgbzwkpodWzPQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex rounded-full bg-verde px-7 py-3 text-sm text-marfil hover:bg-verde-claro transition-colors"
+            >
+              Únete al equipo
+            </Link>
+          </div>
+        </div>
+      </section>
+      
     </>
   )
 }

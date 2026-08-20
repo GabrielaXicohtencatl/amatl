@@ -84,16 +84,16 @@ export default function HomePage() {
             <h2 className="font-display text-2xl sm:text-3xl text-verde">¿Qué es AMATL?</h2>
             <p className="mt-6 text-verde-oscuro/80 leading-relaxed">
             AMATL nace de la convicción de que el aprendizaje tiene el poder de transformar vidas.
-            Inspirado en la tradición del conocimiento compartido, buscamos crear espacios donde
-            las personas puedan desarrollar habilidades, intercambiar ideas y construir proyectos
-            que contribuyan al bienestar de sus comunidades.
+            Inspirado en la filosofía de aprender a aprender y la tradición del conocimiento compartido, 
+            buscamos crear espacios donde las personas puedan desarrollar habilidades, intercambiar 
+            ideas y construir proyectos que contribuyan al bienestar de sus comunidades.
             </p>
             <p className="mt-4 text-verde-oscuro/80 leading-relaxed">
             Creemos que aprender no consiste únicamente en adquirir información, sino en
             desarrollar la capacidad de comprender, crear y trascender.
             </p>
           </div>
-          
+
           <div className="relative mx-auto w-full max-w-sm lg:order-1">
             {/* marco decorativo detrás de la foto, evocando capas de papel */}
             <div className="absolute -inset-3 rounded-3xl bg-dorado/15 -rotate-2" aria-hidden="true" />
@@ -161,11 +161,11 @@ export default function HomePage() {
                 Recibe actualizaciones
               </p>
               <h2 className="font-display text-2xl sm:text-3xl">
-                Sé de las primeras personas en entrar a AMATL
+                Sé de las primeras personas en enterarte de los movimientos de AMATL
               </h2>
               <p className="mt-3 text-marfil/75 max-w-md">
                 Cursos, mentorías y comunidad están en camino. Deja tu correo y te avisamos en
-                cuanto abramos las primeras inscripciones.
+                cuanto alguna novedad se presente.
               </p>
             </div>
             <WaitlistForm

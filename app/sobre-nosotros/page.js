@@ -40,7 +40,7 @@ export default function SobreNosotrosPage() {
             <p>
               AMATL surge como una iniciativa orientada a fomentar el aprendizaje significativo y el
               crecimiento integral de las personas. Desde esa inquietud comenzó la construcción de un
-              es pacio que busca conectar conocimiento, cultura, creatividad y compromiso social.
+              espacio que busca conectar conocimiento, cultura, creatividad y compromiso social.
             </p>
             <p>
               AMATL continúa evolucionando como un proyecto abierto a nuevas ideas, personas y
