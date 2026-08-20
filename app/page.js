@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import WaitlistForm from '@/components/WaitlistForm'
+import Image from 'next/image'
 
 const PILARES = [
   {
@@ -62,43 +63,49 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Motivo visual: semilla → árbol, raíces profundas (identidad AMATL) */}
+          {/* Foto real de AMATL, recortada en círculo con marco dorado */}
           <div className="relative mx-auto w-full max-w-sm aspect-square">
-            <svg viewBox="0 0 400 400" className="w-full h-full" aria-hidden="true">
-              <circle cx="200" cy="200" r="190" fill="#FAF8F2" />
-              {/* raíces */}
-              <path
-                d="M200 230C200 230 150 260 130 320M200 230C200 230 250 260 270 320M200 230C200 230 200 280 200 340"
-                stroke="#8B6B4A"
-                strokeWidth="2.5"
-                fill="none"
-                strokeLinecap="round"
-              />
-              {/* tallo */}
-              <path d="M200 230V120" stroke="#1e4d3a" strokeWidth="3" strokeLinecap="round" />
-              {/* copa / hojas concéntricas, evocando anillos de crecimiento */}
-              <circle cx="200" cy="110" r="26" stroke="#1e4d3a" strokeWidth="2" fill="none" />
-              <circle cx="200" cy="110" r="46" stroke="#4F8A5B" strokeWidth="1.6" fill="none" />
-              <circle cx="200" cy="110" r="66" stroke="#b79a5b" strokeWidth="1.2" fill="none" />
-            </svg>
+            <div className="absolute inset-0 rounded-full border-4 border-dorado/40" />
+            <Image
+              src="/foto-hero.jpg"
+              alt="Actividad de AMATL"
+              fill
+              className="rounded-full object-cover p-3"
+              priority
+            />
           </div>
         </div>
       </section>
 
       {/* QUÉ ES AMATL */}
       <section className="bg-marfil border-b border-verde/10">
-        <div className="mx-auto max-w-3xl px-5 sm:px-8 py-20 text-center">
-          <h2 className="font-display text-2xl sm:text-3xl text-verde">¿Qué es AMATL?</h2>
-          <p className="mt-6 text-verde-oscuro/80 leading-relaxed">
+        <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 grid lg:grid-cols-2 gap-12 items-center">
+          <div className="lg:order-2">
+            <h2 className="font-display text-2xl sm:text-3xl text-verde">¿Qué es AMATL?</h2>
+            <p className="mt-6 text-verde-oscuro/80 leading-relaxed">
             AMATL nace de la convicción de que el aprendizaje tiene el poder de transformar vidas.
             Inspirado en la tradición del conocimiento compartido, buscamos crear espacios donde
             las personas puedan desarrollar habilidades, intercambiar ideas y construir proyectos
             que contribuyan al bienestar de sus comunidades.
-          </p>
-          <p className="mt-4 text-verde-oscuro/80 leading-relaxed">
+            </p>
+            <p className="mt-4 text-verde-oscuro/80 leading-relaxed">
             Creemos que aprender no consiste únicamente en adquirir información, sino en
             desarrollar la capacidad de comprender, crear y trascender.
-          </p>
+            </p>
+          </div>
+          
+          <div className="relative mx-auto w-full max-w-sm lg:order-1">
+            {/* marco decorativo detrás de la foto, evocando capas de papel */}
+            <div className="absolute -inset-3 rounded-3xl bg-dorado/15 -rotate-2" aria-hidden="true" />
+            <div className="relative aspect-square rounded-3xl overflow-hidden border border-verde/10 shadow-sm">
+              <Image
+                src="/foto-amatl.jpg"
+                alt="Actividad de AMATL"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

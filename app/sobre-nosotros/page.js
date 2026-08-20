@@ -1,4 +1,5 @@
 import PageHero from '@/components/PageHero'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Sobre nosotros',
@@ -22,19 +23,30 @@ export default function SobreNosotrosPage() {
         title="Una comunidad construida alrededor de una pregunta sencilla"
         description="¿Cómo podemos construir una comunidad donde aprender sea una herramienta para transformar vidas?"
       />
-
+      
       <section className="bg-marfil border-b border-verde/10">
-        <div className="mx-auto max-w-3xl px-5 sm:px-8 py-16 space-y-4 text-verde-oscuro/80 leading-relaxed">
-          <h2 className="font-display text-2xl text-verde">Historia</h2>
-          <p>
-            AMATL surge como una iniciativa orientada a fomentar el aprendizaje significativo y el
-            crecimiento integral de las personas. Desde esa inquietud comenzó la construcción de un
-            espacio que busca conectar conocimiento, cultura, creatividad y compromiso social.
-          </p>
-          <p>
-            AMATL continúa evolucionando como un proyecto abierto a nuevas ideas, personas y
-            oportunidades de colaboración.
-          </p>
+        <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 grid lg:grid-cols-[1fr_1.3fr] gap-12 items-center">
+          <div className="relative mx-auto w-full max-w-xs aspect-[4/5] rounded-xl overflow-hidden border-4 border-dorado">
+            <Image
+              src="/foto-historia.jpg"
+              alt="Primeras actividades de AMATL"
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          <div className="space-y-4 text-verde-oscuro/80 leading-relaxed">
+            <h2 className="font-display text-2xl text-verde">Historia</h2>
+            <p>
+              AMATL surge como una iniciativa orientada a fomentar el aprendizaje significativo y el
+              crecimiento integral de las personas. Desde esa inquietud comenzó la construcción de un
+              es pacio que busca conectar conocimiento, cultura, creatividad y compromiso social.
+            </p>
+            <p>
+              AMATL continúa evolucionando como un proyecto abierto a nuevas ideas, personas y
+              oportunidades de colaboración.
+            </p>
+          </div>
         </div>
       </section>
 
