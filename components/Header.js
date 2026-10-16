@@ -7,7 +7,7 @@ import Logo from './Logo'
 const NAV_LINKS = [
   { href: '/sobre-nosotros', label: 'Sobre nosotros' },
   // { href: '/programas', label: 'Programas' },
-  // { href: '/recursos', label: 'Recursos' },
+  { href: '/recursos', label: 'Recursos' },
   { href: '/eventos', label: 'Eventos' },
   // { href: '/comunidad', label: 'Comunidad' },
 ]
@@ -15,7 +15,7 @@ const NAV_LINKS = [
 const MORE_LINKS = [
   // { href: '/blog', label: 'Blog' },
   { href: '/equipo', label: 'Equipo' },
-  // { href: '/alianzas', label: 'Alianzas' },
+  { href: '/alianzas', label: 'Alianzas' },
   // { href: '/transparencia', label: 'Transparencia' },
 ]
 

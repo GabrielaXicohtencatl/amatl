@@ -31,7 +31,7 @@ const COLUMNS = [
   {
     title: 'Organización',
     links: [
-      // { href: '/alianzas', label: 'Alianzas' },
+      { href: '/alianzas', label: 'Alianzas' },
       // { href: '/transparencia', label: 'Transparencia' },
       { href: '/contacto', label: 'Contacto' },
     ],
