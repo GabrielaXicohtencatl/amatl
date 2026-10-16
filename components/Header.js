@@ -6,17 +6,17 @@ import Logo from './Logo'
 
 const NAV_LINKS = [
   { href: '/sobre-nosotros', label: 'Sobre nosotros' },
-  { href: '/programas', label: 'Programas' },
-  { href: '/recursos', label: 'Recursos' },
+  // { href: '/programas', label: 'Programas' },
+  // { href: '/recursos', label: 'Recursos' },
   { href: '/eventos', label: 'Eventos' },
-  { href: '/comunidad', label: 'Comunidad' },
+  // { href: '/comunidad', label: 'Comunidad' },
 ]
 
 const MORE_LINKS = [
-  { href: '/blog', label: 'Blog' },
+  // { href: '/blog', label: 'Blog' },
   { href: '/equipo', label: 'Equipo' },
-  { href: '/alianzas', label: 'Alianzas' },
-  { href: '/transparencia', label: 'Transparencia' },
+  // { href: '/alianzas', label: 'Alianzas' },
+  // { href: '/transparencia', label: 'Transparencia' },
 ]
 
 const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSc2iTZ_W7mfUv52JLyPtuecAII1Nd71wvAu9xgbzwkpodWzPQ/viewform'

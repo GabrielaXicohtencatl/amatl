@@ -15,24 +15,24 @@ const COLUMNS = [
     title: 'Comunidad',
     links: [
       { href: '/sobre-nosotros', label: 'Sobre nosotros' },
-      { href: '/programas', label: 'Programas' },
-      { href: '/comunidad', label: 'Comunidad' },
+      // { href: '/programas', label: 'Programas' },
+      // { href: '/comunidad', label: 'Comunidad' },
       { href: '/equipo', label: 'Equipo' },
     ],
   },
   {
     title: 'Recursos',
     links: [
-      { href: '/recursos', label: 'Recursos' },
-      { href: '/blog', label: 'Blog' },
+      // { href: '/recursos', label: 'Recursos' },
+      // { href: '/blog', label: 'Blog' },
       { href: '/eventos', label: 'Eventos' },
     ],
   },
   {
     title: 'Organización',
     links: [
-      { href: '/alianzas', label: 'Alianzas' },
-      { href: '/transparencia', label: 'Transparencia' },
+      // { href: '/alianzas', label: 'Alianzas' },
+      // { href: '/transparencia', label: 'Transparencia' },
       { href: '/contacto', label: 'Contacto' },
     ],
   },
