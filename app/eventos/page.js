@@ -11,23 +11,33 @@ export const metadata = {
 const eventos = [
   {
     id: 1,
-    titulo: 'Jornada de Limpieza Comunitaria en la Barranca',
+    titulo: 'Campaña de Recolección de Ropa',
     tipo: 'proximo', // 'proximo', 'ocurriendo', o 'pasado'
-    fecha: '28 de Octubre, 2026',
-    hora: '9:00 AM - 1:00 PM',
-    lugar: 'San Cosme Mazatecochco',
-    descripcion: 'Únete a nuestra siguiente jornada para rescatar y limpiar nuestros espacios naturales.',
+    fecha: '17,18 de Octubre, 2026',
+    hora: '12:30 PM - 3:00 PM',
+    lugar: 'Oficinas de Regidores, H. Presidencia de San Cosme Mazatecochco',
+    descripcion: 'Únete a nuestra siguiente campaña de recolección de ropa. ¡Tu ayuda hace la diferencia!',
     imagen: '/images/eventos/limpieza-octubre.jpg',
     linkRegistro: '#',
   },
   {
     id: 2,
-    titulo: 'Taller de Introducción al Reciclaje de PET',
-    tipo: 'pasado',
-    fecha: '15 de Septiembre, 2026',
+    titulo: 'Jornada de Limpieza Comunitaria de nuestras Barrancas',
+    tipo: 'pasado', // 'proximo', 'ocurriendo', o 'pasado'
+    fecha: '24 de Agosto, 2026',
     hora: '10:00 AM',
-    lugar: 'Casa de Cultura',
-    descripcion: 'Exposición sobre el ciclo de la economía circular y la creación de textiles ecológicos.',
+    lugar: 'San Cosme Mazatecochco',
+    descripcion: 'Únete a nuestra siguiente jornada para rescatar y limpiar nuestros espacios naturales.',
+    imagen: '/images/eventos/limpieza-octubre.jpg',
+  },
+  {
+    id: 3,
+    titulo: 'Ponencia "¿Por qué nadie nos enseñó a aprender?"',
+    tipo: 'pasado',
+    fecha: '22 de Septiembre, 2026',
+    hora: '10:00 AM',
+    lugar: 'Escuela Secundaria Técnica No. 46, Mazatecochco, Tlaxcala',
+    descripcion: 'Una charla sobre la importancia del aprendizaje autónomo y cómo podemos mejorar nuestras habilidades de aprendizaje.',
     imagen: '/images/eventos/taller-pet.jpg',
   },
 ]
